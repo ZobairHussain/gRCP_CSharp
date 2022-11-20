@@ -46,6 +46,7 @@
     <Protobuf Include="../*.proto" OutputDir="%(RelativePath)models/" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalculatorServiceImpl.cs" />
     <Compile Include="GreetingServiceImpl.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

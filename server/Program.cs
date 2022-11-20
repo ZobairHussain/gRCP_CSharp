@@ -1,4 +1,5 @@
-﻿using Greet;
+﻿using Calculator;
+using Greet;
 using Grpc.Core;
 using System;
 using System.IO;
@@ -7,7 +8,7 @@ namespace server
 {
     internal class Program
     {
-        const int Port = 50051;
+        const int Port = 50052;
         static void Main(string[] args)
         {
             Server server = null;
@@ -15,11 +16,13 @@ namespace server
             {
                 server = new Server()
                 {
-                    Services = {GreetingService.BindService( new GreetingServiceImpl())},
+                    //Services = {GreetingService.BindService( new GreetingServiceImpl())},
+
+                    Services = { CalculatorService.BindService(new CalculatorServiceImpl()) },
                     Ports = { new ServerPort("localhost", Port, ServerCredentials.Insecure) }
                 };
                 server.Start();
-                Console.WriteLine($"The server is listening on the port : {50051}");
+                Console.WriteLine($"The server is listening on the port : {Port}");
                 Console.ReadKey();
             }
             catch (IOException e)
