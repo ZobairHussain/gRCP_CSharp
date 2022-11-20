@@ -8,3 +8,8 @@ gRPC_Unary_Calculator/client/bin/
 gRPC_Unary_Calculator/client/obj/
 gRPC_Unary_Calculator/server/bin/
 gRPC_Unary_Calculator/server/obj/
+gRPC_Server_Stream/.vs/
+gRPC_Server_Stream/client/bin/
+gRPC_Server_Stream/client/obj/
+gRPC_Server_Stream/server/bin/
+gRPC_Server_Stream/server/obj/
