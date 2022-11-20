@@ -1,0 +1,5 @@
+gRPC_Template/client/bin/
+gRPC_Template/client/obj/
+gRPC_Template/server/bin/
+gRPC_Template/server/obj/
+gRPC_Template/.vs/
