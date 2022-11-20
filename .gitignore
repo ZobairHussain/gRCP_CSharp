@@ -3,3 +3,8 @@ gRPC_Template/client/obj/
 gRPC_Template/server/bin/
 gRPC_Template/server/obj/
 gRPC_Template/.vs/
+gRPC_Unary_Calculator/.vs/
+gRPC_Unary_Calculator/client/bin/
+gRPC_Unary_Calculator/client/obj/
+gRPC_Unary_Calculator/server/bin/
+gRPC_Unary_Calculator/server/obj/
